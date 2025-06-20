@@ -6,33 +6,33 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <h1>📡 Indicador de Qualidade da Conexão Residencial (IQCR)</h1>
+  <h1>Indicador de Qualidade da Conexão Residencial (IQCR)</h1>
 
   <p>Este projeto demonstra a construção de um indicador de desempenho a partir de dados reais coletados com um script em Python. O objetivo é analisar a qualidade da internet contratada (200 Mbps) por meio de testes automatizados.</p>
 
-  <h2>🔢 Fórmula do Indicador</h2>
+  <h2>Fórmula do Indicador</h2>
   <p><strong>IQCR = (Velocidade média de download real / Velocidade contratada) × 100</strong></p>
 
-  <h2>📅 Dias analisados:</h2>
+  <h2>Dias analisados:</h2>
   <ul>
     <li><a href="dados/velocidade_12_do_06_2025.csv">12/06/2025</a></li>
     <li><a href="dados/velocidade_14_do_06_2025.csv">14/06/2025</a></li>
   </ul>
 
-  <h2>📊 Gráfico de Download</h2>
+  <h2>Gráfico de Download</h2>
   <img src="scripts/grafico_download.png" alt="Gráfico de Download" width="700">
 
-  <h2>📄 Análise detalhada (PDF)</h2>
+  <h2>Análise detalhada (PDF)</h2>
   <p><a href="analise/analise_iqcr_junho_2025.pdf" target="_blank">Clique aqui para ver a análise completa</a></p>
 
-  <h2>⚙️ Script de automação</h2>
+  <h2>Script de automação</h2>
   <p>O script Python usado para coleta automática está disponível <a href="scripts/monitor_internet.py">aqui</a>.</p>
 
-  <h2>🔍 Sobre a coleta de dados</h2>
+  <h2>Sobre a coleta de dados</h2>
   <p>A coleta foi realizada com o <code>speedtest-cli</code> rodando automaticamente a cada 9 minutos usando agendamento via <code>crontab</code>. Foram monitorados os parâmetros: download (Mbps), upload (Mbps) e ping (ms).</p>
 
   <footer>
-    <p><small>Projeto acadêmico de Julio S.A. | 2025</small></p>
+    <p><small>Projeto acadêmico de Julianderson Santos Sá | 2025</small></p>
   </footer>
 </body>
 </html>
