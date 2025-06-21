@@ -10,7 +10,7 @@ Avaliar a estabilidade e qualidade da conexão de internet residencial usando um
 
 IQCR = (Velocidade média de download / Velocidade contratada) × 100
 
-## 🛠Ferramentas utilizadas
+## Ferramentas utilizadas
 
 - Python 3 + speedtest-cli
 - Crontab (agendamento automático)
